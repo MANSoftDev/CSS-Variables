@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "G:\...\CSSHandler\", "CSSHandler", "{9216947A-4471-4C6E-B2F5-464F10EF8CBB}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{A49BC72E-8A1B-40C4-8195-1A6682F113C2}|CustomHandler.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/CSSHandler"
+		Debug.AspNetCompiler.PhysicalPath = "..\CSS Variables\CSSHandler\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CSSHandler\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CSSHandler"
+		Release.AspNetCompiler.PhysicalPath = "..\CSS Variables\CSSHandler\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CSSHandler\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57175"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHandler", "CustomModule\CustomHandler.csproj", "{A49BC72E-8A1B-40C4-8195-1A6682F113C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Debug|.NET.ActiveCfg = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Debug|.NET.Build.0 = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Release|.NET.ActiveCfg = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Release|.NET.Build.0 = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{9216947A-4471-4C6E-B2F5-464F10EF8CBB}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Release|.NET.ActiveCfg = Release|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A49BC72E-8A1B-40C4-8195-1A6682F113C2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
